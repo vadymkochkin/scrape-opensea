@@ -1,0 +1,26 @@
+{
+  "name": "open-sea-asset-scraper",
+  "version": "1.0.0",
+  "description": "This project is for scraping assets from Opensea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "opensea",
+    "assets",
+    "nft"
+  ],
+  "author": "Ilija",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "csv-parse": "^5.0.4",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.1",
+    "node-csv": "^0.1.2",
+    "puppeteer": "^13.5.2",
+    "xml-parse": "^0.4.0"
+  }
+}
